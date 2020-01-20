@@ -1,3 +1,19 @@
 @import "normalize";
 @import "fonts";
 @import "vars";
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+
+  @media (max-width: 1199px) {
+    max-width: 100%;
+    margin: 0 45px;
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 15px;
+  }
+}

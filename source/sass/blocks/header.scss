@@ -1,0 +1,50 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+
+    @media (max-width: 1199px) {
+      padding-top: 40px;
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 20px;
+    }
+  }
+
+  &__item {
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "bebas-neue", sans-serif;
+    color: #FFFFFF;
+
+    @media (max-width: 1199px) {
+      font-size: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+      letter-spacing: 0.4px;
+    }
+
+    &--logo {
+      letter-spacing: 0.5px;
+
+      @media (max-width: 767px) {
+        letter-spacing: 0.4px;
+      }
+    }
+  }
+}

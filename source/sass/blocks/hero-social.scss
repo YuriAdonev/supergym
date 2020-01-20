@@ -1,0 +1,26 @@
+.hero-social {
+  margin: 0 0 42px auto;
+
+  list-style: none;
+
+  @media (max-width: 1199px) {
+    display: none;
+  }
+
+  li {
+    &:not(:last-child) {
+      margin-bottom: 19px;
+    }
+  }
+
+  &__link {
+    display: block;
+
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-align: right;
+    font-family: "roboto-condensed", sans-serif;
+    color: #FFFFFF;
+  }
+}
